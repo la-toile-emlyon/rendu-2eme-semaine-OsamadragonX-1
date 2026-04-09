@@ -1,0 +1,148 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    height: 0;
+}
+header {
+  
+  padding: 20px;
+  height: 100vh;
+  background: url("/assets/image-header.png") center/cover no-repeat;
+  
+}
+header img {
+  margin-top: 70px;
+  margin-left: 50px;
+  font-weight: bold;
+  color: white;
+
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  place-items: center;
+  gap: 20px;
+  
+  
+}
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-left: 15px;
+}
+div.content {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  align-items:center;
+  color: white;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-align: start;
+}
+.btn-noir{
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  width: 100px;  
+}
+.btn-blanc{
+    text-decoration: none;
+    color: #000000;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100px;
+}
+h1 span {
+    font-size: 160px;
+    margin: 0;
+    display: block;
+}
+div p {
+    font-size: 16px;
+    max-width: 350px;
+    
+}
+.section-2{
+    height: 100vh;
+    color: white;
+    max-width: 750px;
+    align-items: center;
+    display: column;
+    font-family: Arial, sans-serif;
+    margin-left: 450px;
+
+}
+h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.section-2 p {
+    font-size: 20px;
+}
+.section-3{
+    background: url("/assets/section-img.png") center/cover no-repeat;
+   height: 900px;
+   margin-top: -150px;
+}
+section.section-4{
+    height: 100vh;
+    color: white;
+    max-width: 750px;
+    align-items: center;
+    
+    display: column;
+    font-family: Arial, sans-serif;
+    margin-left: 350px;
+    margin-bottom: 120px;
+    
+}
+h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #ffffff;
+  padding: 10px 0;
+   text-align: center;
+}
+ul li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    border-bottom: 2px dashed #ffffff; /* Pointillé gris */
+  padding: 10px 0; /* Espacement */
+  margin-bottom: 5px;
+}
+ul li span {
+    font-weight: bold;
+  min-width: 160px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.buttons-3{
+  margin-top: 100px;
+  text-align-last: center;
+}
+.section-5{
+    background: url("/assets/banniere-logo.png") center/cover no-repeat;
+   height: 400px;
+   margin-top: -150px;
+   display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+}
+.section-5 img {
+    margin: 20px;
+    place-items: center;
+    
+}
