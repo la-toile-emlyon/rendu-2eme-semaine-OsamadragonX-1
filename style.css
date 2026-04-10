@@ -6,8 +6,8 @@ body{
 header {
   
   padding: 20px;
-  height: 100vh;
-  background: url("/assets/image-header.png") center/cover no-repeat;
+  height: 130vh;
+  background: url("assets/image-header.png") center/cover no-repeat;
   
 }
 header img {
@@ -22,36 +22,63 @@ nav {
   justify-content: flex-end;
   margin: 20px;
   place-items: center;
+  padding-right: 70px;
   gap: 20px;
+  font-style: sans-serif;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: -20px;
   
-  
+  font-family: sans-serif;
 }
 header nav a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: -1900;
   margin-left: 15px;
 }
 div.content {
-  height: 300px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  gap: 20px;
-  align-items:center;
+  display: column;
+  margin-left: 400px;
+  margin-right: 400px;
   color: white;
   margin-top: 100px;
   font-family: Arial, sans-serif;
   font-weight: bold;
-  text-align: start;
+  
 }
+h1 {
+    font-size: 53px;
+    font-family: sans-serif;
+    font-style: regular;
+    font-weight:lighter;
+    margin-bottom: 20px;
+    letter-spacing: -5px;
+}
+h1 span {
+    font-size: 160px;
+    margin-left:-20px;
+    display: block;
+}
+div p {
+    font-size: 26px;
+    max-width: 350px;
+    font-weight: lighter;
+    
+}
+p span {
+    font-size: 26px;
+    max-width: 350px;
+    font-weight: bold;
+}
+
 .btn-noir{
   text-decoration: none;
   color: white;
-  background-color: #333;
+  background-color: #000000;
   padding: 10px 20px;
   border-radius: 5px;
-  margin: 10px;
+  margin-right: 10px;
   width: 100px;  
 }
 .btn-blanc{
@@ -60,38 +87,37 @@ div.content {
     background-color: white;
     padding: 10px 20px;
     border-radius: 5px;
-    margin: 10px;
+    margin-left: 10px;
     width: 100px;
 }
-h1 span {
-    font-size: 160px;
-    margin: 0;
-    display: block;
-}
-div p {
-    font-size: 16px;
-    max-width: 350px;
-    
-}
+
 .section-2{
     height: 100vh;
     color: white;
-    max-width: 750px;
+    
     align-items: center;
     display: column;
     font-family: Arial, sans-serif;
-    margin-left: 450px;
+    margin-left: 400px;
 
 }
 h2 {
     font-size: 48px;
+    font-family: sans-serif;
+    font-style: regular;
+    font-weight: -1900;
     margin-bottom: 20px;
+    max-width: 800px;
 }
 .section-2 p {
     font-size: 20px;
+    font-family: sans-serif;
+    font-style: regular;
+      font-weight: -1900;
+      max-width: 800px;
 }
 .section-3{
-    background: url("/assets/section-img.png") center/cover no-repeat;
+    background: url("assets/section-img.png") center/cover no-repeat;
    height: 900px;
    margin-top: -150px;
 }
@@ -111,7 +137,7 @@ h3 {
     font-size: 36px;
     margin-bottom: 10px;
     margin-left: 40px;
-    border-bottom: 2px dashed #ffffff;
+    border-bottom: 2px dashed #757575;
   padding: 10px 0;
    text-align: center;
 }
@@ -119,7 +145,7 @@ ul li {
     font-size: 20px;
     margin-bottom: 10px;
     list-style-type: none;
-    border-bottom: 2px dashed #ffffff; /* Pointillé gris */
+    border-bottom: 2px dashed #757575; /* Pointillé gris */
   padding: 10px 0; /* Espacement */
   margin-bottom: 5px;
 }
@@ -134,8 +160,8 @@ ul li span {
   text-align-last: center;
 }
 .section-5{
-    background: url("/assets/banniere-logo.png") center/cover no-repeat;
-   height: 400px;
+    background: url("assets/banniere-logo.png") center/cover no-repeat;
+   height: 300px;
    margin-top: -150px;
    display: flex;
   justify-content: center; /* Horizontal */
@@ -145,4 +171,151 @@ ul li span {
     margin: 20px;
     place-items: center;
     
+}
+section.section-6{
+    height: 100vh;
+    color: white;
+    max-width: 750px;
+    align-items: center;
+    
+    display: column;
+    font-family: Arial, sans-serif;
+    margin-left: 350px;
+    margin-bottom: 10px;
+    margin-top: 100px;
+}
+section.section-6 h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    border-bottom: 2px dashed #ffffff;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: none;
+
+}
+section.section-6 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+ul.contact-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    list-style-type: none;
+}
+.section-6 li {
+    border-bottom: none;
+    font-size: 12px;
+}
+input {
+  background-color: rgb(37, 37, 37);
+  align-items: start;
+  height: 30px;
+}
+textarea {
+  background-color: rgb(37, 37, 37);
+  align-items: width;
+  height: 100px;
+}
+.section-6 button {
+  padding: 10px ;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  margin-left: 250px;
+}
+.footer {
+  color: white;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+}
+
+/* TOP */
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* EMAIL */
+.email p {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5px;
+}
+
+.email a {
+  color: white;
+}
+
+/* NEWSLETTER */
+.newsletter h3 {
+  margin-bottom: 10px;
+  border-bottom: none;
+  font-size: 20px;
+  
+}
+
+/* INPUT + BUTTON */
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 50px;
+ 
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 15px; 
+  outline: none;
+  width: 200px;
+  background-color: white;
+  
+}
+
+.input-group button {
+  background: rgb(0, 0, 0);
+  color: white;
+  border: 1px solid white;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: gray;
+}
+.section-fin{
+    display:flex;
+    text-align: left;
+    height: 80px;
+    color: black;
+    background-color: white;
+
+}
+.pfin1{
+    
+    padding: 20px ;
+    color: black;
+    background-color: white;
+    margin-right:250px;
+    margin-left: 100px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: regular;
+    font-weight: -1900;
+}
+p.pfin2 {
+  padding: 20px ;
+    color: black;
+    background-color: white;
+    margin-left: 350px;
 }
